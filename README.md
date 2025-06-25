@@ -20,7 +20,9 @@ Animated Experience: Framer Motion brings the UI to life with smooth transitions
 
 💠 Tech Overview
 
-Frontend
+
+
+Frontend:
 
 React 18.3.1 (with functional components and hooks)
 
@@ -32,7 +34,9 @@ Axios to handle API requests
 
 ES6+ JavaScript for clean, modern code
 
-Backend
+
+
+Backend:
 
 Flask RESTful services
 
@@ -51,6 +55,8 @@ Multi-container setup for frontend and backend separation
 Git for source control
 
 npm for managing frontend dependencies
+
+
 
 ⚡ Getting Started
 
