@@ -125,7 +125,7 @@ function App() {
 
             <div className="mb-8">
               <div className="flex justify-between items-center mb-4">
-                <div className="flex flex-nowrap space-x-2">
+                <div className="flex flex-nowrap space-x-2 mr-4">
                   <button
                     onClick={() => setFilter("all")}
                     className={`px-3 py-1 rounded-md ${filter === "all" ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-700"}`}
@@ -150,7 +150,7 @@ function App() {
                   placeholder="Search tasks..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-48 px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
               <AnimatePresence>
